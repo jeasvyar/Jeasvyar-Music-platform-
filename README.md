@@ -1,9 +1,4 @@
-# git clone https://github.com/yourusername/mortal-music-platform.git
-cd mortal-music-platform
-# Add the index.html file here
-git add .
-git commit -m "Initial commit"
-git push origin main
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
