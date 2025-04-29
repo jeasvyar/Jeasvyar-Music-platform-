@@ -70,3 +70,39 @@
   </footer>
 </body>
 </html>
+<!-- Browse Section -->
+<section id="browse" class="py-8">
+  <h3 class="text-2xl font-semibold mb-4">Trending Tracks</h3>
+  <div class="grid md:grid-cols-3 gap-6">
+    <!-- Placeholder track cards -->
+    <div class="bg-gray-800 p-4 rounded-lg shadow">
+      <h4 class="font-bold">Track Title</h4>
+      <p class="text-sm text-gray-400">Artist Name</p>
+      <audio controls class="w-full mt-2">
+        <source src="sample.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <!-- More tracks can be added here -->
+  </div>
+</section>
+
+<!-- Upload Section -->
+<section id="upload" class="py-8">
+  <h3 class="text-2xl font-semibold mb-4">Upload Your Music</h3>
+  <form class="bg-gray-800 p-6 rounded-lg">
+    <div class="mb-4">
+      <label class="block mb-1">Track Title</label>
+      <input type="text" class="w-full p-2 rounded bg-gray-700 border border-gray-600" placeholder="Enter track title" />
+    </div>
+    <div class="mb-4">
+      <label class="block mb-1">Artist Name</label>
+      <input type="text" class="w-full p-2 rounded bg-gray-700 border border-gray-600" placeholder="Your name or alias" />
+    </div>
+    <div class="mb-4">
+      <label class="block mb-1">Upload MP3</label>
+      <input type="file" accept="audio/mpeg" class="w-full text-white" />
+    </div>
+    <button type="submit" class="bg-yellow-400 text-gray-900 px-4 py-2 rounded font-bold hover:bg-yellow-300">Submit</button>
+  </form>
+</section>
